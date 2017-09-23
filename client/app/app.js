@@ -16,7 +16,7 @@ app.config(['$urlRouterProvider', '$locationProvider',
 ]);
 
 /* set the initial state of the application */
-app.run(['$state', 
+app.run(['$state',
   function($state) {
     $state.go('listings.list');
   }
